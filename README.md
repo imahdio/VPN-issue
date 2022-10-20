@@ -1,5 +1,5 @@
 based [this youtube video](https://www.youtube.com/watch?v=H9157KFBPdc), I have setted up softether VPN server on my azure Ubuntu server.
-I'm checking the results from 2 locations in every try:
+I'm checking the connection results from 2 locations in every try:
 
 1-my own PC connected to local restricted internet by ISP/government
 
