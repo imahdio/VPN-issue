@@ -6,7 +6,7 @@ I'm checking the results from 2 locations in every try:
 2-remote USA based windows server
 
 # These are the results:
-## ▉ Open vpn connection
+## 1- Open vpn connection
 port|results
 -|-
 443 tcp|![openvpn03](https://user-images.githubusercontent.com/64577273/196978432-bc63737e-a7aa-442b-9877-7a15079a049c.jpg)
@@ -15,7 +15,7 @@ port|results
 
 Notice: as be shown in above table, the connection refused on my own local PC which is connected to restricted internet by ISP/government but that test passed from USA based server successfully.
 
-## ▉ L2tp connection
+## 2- L2tp connection
 this is the active L2tp vpn from my softether vpn server which is accessible even right now for your test:
 
 details|results
@@ -25,7 +25,7 @@ ip: 20.150.215.135<br>type: L2TP/IPsec<br>PSK: vpn<br>username: user01<br>passwo
 
 notice: as be shown in above table, the connection refused on my own local PC which is connected to restricted internet by ISP/government but that test passed from USA based server successfully.
 
-## ▉ Wireguard connection:
+## 3- Wireguard connection:
 I've used [this script](https://github.com/Nyr/wireguard-install) for installing wireguard on my other ubuntu server without any results even with diffrent ports and dns servers as the open vpn tests.
 
 details<br>it's available for your test right now|result on my local PC
@@ -34,7 +34,7 @@ details<br>it's available for your test right now|result on my local PC
 
 for your test, [download this wireguard client configuration from here](https://github.com/imahdio/VPN-issue/files/9831486/60263.zip).
 
-## ▉ socks5 proxy:
+## 4- socks5 proxy:
 I even have used [this script](https://github.com/snoyiatk/3proxy) for installing socks5 proxy on my server on my ubuntu server without any results.
 
 Here is the connection details for your test:<br>
@@ -46,3 +46,7 @@ password: 20222022<br>
 ![socks1](https://user-images.githubusercontent.com/64577273/196996481-bb9f1198-7656-4a8c-9145-69fb3ef9842b.jpg)
 
 notice: I've used [this proxifier software](https://github.com/imahdio/VPN-issue/files/9831787/Proxifier.4.07.%2B.Portable.zip) for testing the connection. as be shown in above image, the connection refused on my own local PC which is connected to restricted internet by ISP/government but that test passed from USA based server successfully.
+
+NOTICE: I have access into google.com and many other international websites with some limited abilities. for example:
+1. although I have access itno microsoft.com and bing.com but couldnot update wibndows 10 with my local IP.
+2. although [this website](https://www.google.com/chrome/) is accessible with my local IP but not possible to download google chrome browser without using vpn!!
