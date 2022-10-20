@@ -28,7 +28,7 @@ notice: as be shown in above table, the connection refused on my own local PC wh
 ## ▉ Wireguard connection:
 I've used [this script](https://github.com/Nyr/wireguard-install) for installing wireguard on my other ubuntu server without any results even with diffrent ports and dns servers as the open vpn tests.
 
-details|result on my local PC
+details<br>it's available for your test right now|result on my local PC
 -|-
 [Interface]<br>Address = 10.7.0.2/24<br>DNS = 8.8.8.8, 8.8.4.4<br>PrivateKey = EPfUDRKTSvUkVL1joLB00CFEUr1yhy2okowqNyO11kQ=<br>MTU = 1380<br><br>[Peer]<br>PublicKey = GujR7NI78fkvXnY9xNINoInS6uoZIr1CzreSNUd6Pmk=<br>PresharedKey = ANmW3NDAwAVdkAVWoqcT+KRUlXYOKY58DmzaHCjTg6Y=<br>AllowedIPs = 0.0.0.0/0, ::/0<br>Endpoint = 20.124.81.101:60263<br>PersistentKeepalive = 25|![openvpn02](https://user-images.githubusercontent.com/64577273/196988275-8f63c677-019c-4290-be98-b0130fa86bfa.jpg)
 
