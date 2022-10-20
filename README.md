@@ -2,9 +2,9 @@ based [this youtube video](https://www.youtube.com/watch?v=H9157KFBPdc), I have 
 I'm checking the results from 2 locations in every try:
 
 1-my own PC connected to local restricted internet by ISP/government
-
 2-remote USA based windows server
-and these are the results:
+
+Here are the results:
 
 ## ▉ Open vpn connection
 port|results
