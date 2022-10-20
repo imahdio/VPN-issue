@@ -5,7 +5,7 @@ I'm checking the results from 2 locations in every try:
 
 2-remote USA based windows server
 
-# Here are the results:
+# These are the results:
 ## ▉ Open vpn connection
 port|results
 -|-
